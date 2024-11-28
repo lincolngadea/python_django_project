@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello Word!")
+    return render(request, 'user/index.html')
+
+def create(request):
+    return render(request, 'user/criar.html')

@@ -1,13 +1,30 @@
-## PASSOS PARA TRABALHAR COM O DJANGO 
+## CHANGELOGS
 
-- Verificar a versão do Python
-- Criar um ambiente virtual (** python -m venv ./env **)
-- Ativar o ambiente virtual (** source ./env/bin/activate **)
-- Instalação do django (pip install django)
-- Guardar as dependências (** pip freeze > requirements.txt **)
+### COMMIT 01
+- Configuração do projeto
 
-### COMANDOS PARA O DJANGO
+### COMMIT 02
+- Criação do APP
+- Configuração da primeira URL de HelloWord
+- Criação da View
+- Criaçao da pasta template
 
-- Iniciar um projeto: django-admin startproject project_1 
-- executar o projeto: python manage.py runserver
-- Criação de um aplicativo dentro do projeto Django: python manage.py startapp app_1
+### COMMIT 03
+- Criação do primeiro model
+- Registro do app01 no settings
+- Criação dos Migrations: 
+  - python manage.py makemigrations
+- Criação das tabelas de migrations
+  - python manage.py migrate
+
+### COMMIT 04
+- Cria repositório no github
+- Altera as branchs
+- Exclui o CHANGELOG e adiciona no README
+- Inicia execuções utiliando o py SHELL: python manage.py shell
+- Cria um usuário root no django: python manage.py createsuperuser
+- Regista o Model no admin
+- Testa o painel administrativo
+
+### COMMIT 05
+- Criação de templates
