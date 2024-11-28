@@ -5,5 +5,5 @@ class User(models.Model):
     telefone = models.IntegerField('telefone')
     email = models.CharField('email',max_length=30)
 
-def __str__(self):
-    return f"Nome: {self.nome}, Telefone: {self.telefone}, Email: {self.email}"
+    def __str__(self):
+        return f"Nome: {self.nome}, Telefone: {self.telefone}, Email: {self.email}"
