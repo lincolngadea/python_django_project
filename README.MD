@@ -28,3 +28,10 @@
 
 ### COMMIT 05
 - Criação de templates
+
+### COMMIT 06
+- Criação de formulário
+- Uso do Jinja (Engine de Templates)
+- Uso do bootstrap nos formulários
+- Teste do formulário
+- Implementação de um POS usando Jinja
