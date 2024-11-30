@@ -22,3 +22,8 @@ def create(request):
                 'email': form.cleaned_data['email']
             }
             return render(request, 'user/index.html', context= context)
+def change(request,user_id):
+    context = {
+        'id': user_id
+    }
+    return render(request, 'user/index.html', context= context)

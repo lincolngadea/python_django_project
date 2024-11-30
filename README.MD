@@ -38,3 +38,6 @@
 
 ### COMMIT 07
 - Criação de página dinâmica no response do POST
+
+### COMMIT 08
+- Criação de página dinâmica usando o query params
