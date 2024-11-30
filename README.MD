@@ -35,3 +35,6 @@
 - Uso do bootstrap nos formulários
 - Teste do formulário
 - Implementação de um POS usando Jinja
+
+### COMMIT 07
+- Criação de página dinâmica no response do POST
